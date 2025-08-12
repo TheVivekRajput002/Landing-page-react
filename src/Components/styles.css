@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+.gayab {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 1s;
+
+}
+
+.ungayab {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0%);
+}
+
+.gayab-txt {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 1s;
+    font-family: "Roboto", sans-serif;
+}
+
+.ungayab-txt {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0%);
+}
+.gayab-img {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(-100%);
+    transition: all 1s;
+    font-family: "Roboto", sans-serif;
+}
+
+.ungayab-img {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0%);
+}
