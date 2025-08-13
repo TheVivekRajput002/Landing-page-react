@@ -7,14 +7,15 @@ import Footer from './Components/Footer'
 function App() {
 
   return (
+
+
     <>
 
-      <div className='bg-[#F9FAFB]'>
+
+      <div className='bg-[#00111F] pt-[2.5vh]'>
 
         <Home />
-
         <Footer />
-
 
       </div>
 

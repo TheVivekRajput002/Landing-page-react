@@ -1,10 +1,10 @@
 import { useEffect } from "react";
-import './styles.css'
+import './Hero_ss_Animation_styles.css'
 import web_ss from '../assets/web_ss.png'
 import web_ss_l from '../assets/web_ss_l.png'
 import web_ss_r from '../assets/web_ss_r.png'
 
-function Animation() {
+export default function Hero_ss_Animation() {
     useEffect(() => {
         const hiddencards = document.querySelectorAll(".gayab");
 
@@ -97,14 +97,14 @@ function Animation() {
                     <h1 className="text-[50px] font-light">Amplify Your Results.</h1>
                 </div>
                 <div className="flex mt-[6vh]">
-                    <div class="w-[47vw] gayab-img relative left-[60vh] top-[50px]">
-                        <img src={web_ss_l} alt="" />
+                    <div class="w-[47vw] gayab-img relative left-[60vh] top-[50px] ">
+                        <img  src={web_ss_l} alt="" />
                     </div>
-                    <div class="w-[53vw] gayab z-1">
-                        <img src={web_ss} alt="" />
+                    <div class="w-[53vw] gayab z-1 rounded-2xl">
+                        <img  src={web_ss} alt="" />
                     </div>
-                    <div class="w-[47vw] gayab-img relative right-[60vh] top-[50px]  ">
-                        <img src={web_ss_r} alt="" />
+                    <div class="w-[47vw] gayab-img relative right-[60vh] top-[50px]  rounded-3xl">
+                        <img  src={web_ss_r} alt="" />
                     </div>
 
                 </div>
@@ -114,4 +114,3 @@ function Animation() {
     );
 }
 
-export default Animation;
