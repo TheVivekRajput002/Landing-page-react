@@ -15,7 +15,7 @@ const Home = () => {
 
 
             {/* Hero SEction  */}
-            <div className="bg-gradient-to-b from-[#448ded] to-[#103c77] h-[90vh] w-[90vw] m-auto mb-[10vh] rounded-[50px] p-5 overflow-hidden">
+            <div className="bg-gradient-to-b from-[#448ded] to-[#103c77] h-[90vh] w-[90vw] m-auto  rounded-[50px] p-5 overflow-hidden">
                 <div className="nav flex items-center max-w-[80vw] m-auto justify-between mt-[1.5vh] font-[350]">
                     <div class="img" >
                         <img className='h-[35px]' src={NoteBloc_logo_white} alt="" />
@@ -39,7 +39,7 @@ const Home = () => {
 
             {/* Mobile section  */}
 
-            <div class="h-[65vh] w-[75vw] m-auto bg-gradient-to-b from-[#88C7F9] to-[#268CDF] rounded-[20px] border-1 border-solid border-[#619FEF52] relative overflow-hidden">
+            <div class="h-[65vh] w-[75vw] mt-[12vh] m-auto bg-gradient-to-b from-[#88C7F9] to-[#268CDF] rounded-[20px] border-1 border-solid border-[#619FEF52] relative overflow-hidden">
                 <div class="mobile">
                     <div class="mobile-txt max-w-[25%] absolute top-[7%] left-[8%]">
                         <p className='bg-[#619fef75] text-[#3482E9] align-center rounded-[20px] py-[6px] px-[10px] text-[10px] inline'>Use Cases</p>
@@ -64,14 +64,14 @@ const Home = () => {
 
             {/* Specialitites  */}
 
-            <div class="more-details mb-[20vh]">
-                <h3 className='text-[40px] font-light text-white text-center mt-[7vh] mb-[6vh]'>Now No More Stress of pending tasks</h3>
+            <div class="more-details mt-[10vh]">
+                <h3 className='text-[40px] font-light text-white text-center  mb-[6vh]'>Now No More Stress of pending tasks</h3>
                 < Cards_slide_l2r />
             </div>
 
             {/* FAQ  */}
 
-            <div class="faq flex max-w-[80vw] my-[30vh] mx-auto gap-[10px]">
+            <div class="faq flex max-w-[80vw] mt-[30vh] mb-[15vh] mx-auto gap-[10px]">
                 <div class="faq-txt max-md:text-[90%] w-[40%] items-center flex flex-col justify-center text-white">
                     <h1 className='text-[50px]'>Frequently</h1>
                     <h1 className='text-[50px]'>asked</h1>
