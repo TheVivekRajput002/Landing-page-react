@@ -1,12 +1,117 @@
-# React + Vite
+# NoteBloc
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern productivity application landing page built with React and Vite. NoteBloc helps users organize tasks, track goals, and boost focus with a clean, distraction-free interface.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Clean Landing Page Design** - Modern gradient backgrounds and smooth animations
+- **Responsive Layout** - Optimized for desktop, tablet, and mobile devices
+- **Interactive Components** - Smooth scroll animations and hover effects
+- **FAQ Section** - Collapsible questions using Headless UI
+- **Modern Tech Stack** - Built with React 19, Vite, and Tailwind CSS
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend Framework:** React 19.1.1
+- **Build Tool:** Vite 7.1.1
+- **Styling:** Tailwind CSS 4.1.11
+- **UI Components:** Headless UI, Radix UI
+- **Animations:** GSAP, Motion
+- **Icons:** Lucide React
+- **Development:** ESLint for code quality
+
+## 📦 Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## 🏃‍♂️ Development
+
+Start the development server:
+```bash
+npm run dev
+```
+
+Other available scripts:
+- `npm run build` - Build for production
+- `npm run lint` - Run ESLint
+- `npm run preview` - Preview production build
+
+## 🏗️ Project Structure
+
+```
+src/
+├── Components/
+│   ├── Cards_slide_l2r.jsx          # Animated benefit cards
+│   ├── FAQ_Questions.jsx            # FAQ accordion component
+│   ├── Footer.jsx                   # Footer with social links
+│   └── Hero_ss_Animation.jsx        # Hero section with screenshots
+├── Pages/
+│   └── Home.jsx                     # Main landing page
+├── assets/                          # Images and media files
+├── App.jsx                         # Main app component
+└── main.jsx                        # App entry point
+```
+
+## 🎨 Key Components
+
+### Hero Section
+- Gradient background with animated screenshot showcase
+- Navigation bar with smooth hover effects
+- Centered call-to-action layout
+
+### Benefits Cards
+- Left-to-right slide animation on scroll
+- Intersection Observer for performance
+- Gradient overlays with compelling copy
+
+### FAQ Section
+- Collapsible questions using Headless UI
+- Smooth transitions and hover effects
+- Clean typography and spacing
+
+### Footer
+- Social media icons with hover animations
+- Video background element
+- Links to privacy policy and terms
+
+## 🔧 Configuration
+
+- **ESLint:** Configured for React with hooks and refresh plugins
+- **PostCSS:** Setup with Tailwind CSS and Autoprefixer
+- **Vite:** Optimized for React development with HMR
+
+## 📱 Responsive Design
+
+The application is fully responsive with breakpoints for:
+- Desktop (default)
+- Tablet (768px and below)
+- Mobile (480px and below)
+
+## 🎯 Purpose
+
+This landing page showcases NoteBloc, a productivity app that promises to:
+- Boost focus and cut clutter
+- Help users stay organized
+- Track growth and build momentum
+- Sync across multiple devices
+- Provide customizable workflows
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Run `npm run lint` to check code quality
+5. Submit a pull request
+
+## 📄 License
+
+This project is private and not licensed for public use.
+
+---
+
+Built with ❤️ using React + Vite
