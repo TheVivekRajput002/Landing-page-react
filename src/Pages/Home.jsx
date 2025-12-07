@@ -2,7 +2,7 @@ import React from 'react'
 // import './Home-styles.css'
 import phone from '../assets/phone.png';
 import Hero_ss_Animation from '../Components/Hero_ss_Animation';
-import Cards_slide_l2r from '../Components/Cards_slide_l2r';
+import Solutions from '../Components/Solutions';
 import Underline from '../assets/underline.svg'
 import NoteBloc_logo_white from '../assets/NoteBloc_logo_white.png'
 import FAQ_Questions from '../Components/FAQ_Questions';
