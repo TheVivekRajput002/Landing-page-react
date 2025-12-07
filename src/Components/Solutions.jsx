@@ -6,37 +6,37 @@ export default function Solutions() {
             icon: Calendar1,
             title: "Chaotic Schedules",
             description: "An AI assistant that organizes your day smartly — auto-scheduling meetings, managing overlaps, and keeping your time under control.",
-            color: "bg-purple-400"
+            color: "bg-blue-400"
         },
         {
             icon: Spotlight,
             title: "Meeting Overload",
             description: "Predicts when your calendar is getting too full and suggests better time slots to prevent burnout and balance workload..",
-            color: "bg-purple-400"
+            color: "bg-blue-400"
         },
         {
             icon: Timer,
             title: " Lost Track of Time",
             description: "Tracks where your hours go and shows insights on what tasks you’ve spent the most time on to boost productivity.",
-            color: "bg-purple-400"
+            color: "bg-blue-400"
         },
         {
             icon: Infinity,
             title: "Endless Coordination",
             description: "Automates meeting coordination, reminders, and reschedules — so you never waste time managing calendars manually.",
-            color: "bg-purple-400"
+            color: "bg-blue-400"
         },
         {
             icon: Notebook,
             title: "Reactive Planning",
             description: "Goes beyond static calendars by proactively suggesting focus blocks, rest periods, and task priorities based on your routine..",
-            color: "bg-purple-400"
+            color: "bg-blue-400"
         },
         {
             icon: Omega,
             title: "Overload Prediction Engine",
             description: "Uses data on meetings, deadlines, and work hours to predict upcoming workload spikes and notify users before burnout.",
-            color: "bg-purple-400"
+            color: "bg-blue-400"
         }
     ]
     return (
