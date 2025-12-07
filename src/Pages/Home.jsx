@@ -66,7 +66,7 @@ const Home = () => {
 
             <div class="more-details mt-[10vh]">
                 <h3 className='text-[40px] font-light text-white text-center  mb-[6vh]'>Now No More Stress of pending tasks</h3>
-                < Cards_slide_l2r />
+                < Solutions />
             </div>
 
             {/* FAQ  */}
